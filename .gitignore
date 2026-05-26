@@ -14,7 +14,6 @@ out
 .idea
 
 build
-common
 # gradle
 common/build
 .gradle
