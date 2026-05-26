@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "kyuzones",
+  "version": "${version}",
+  "name": "KyuZones",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/kyuzones/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.kyu.kyuzones.fabric.ExampleModFabric"
+    ],
+    "client": [
+      "com.kyu.kyuzones.fabric.client.ExampleModFabricClient"
+    ]
+  },
+  "mixins": [
+    "kyuzones.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "architectury": ">=13.0.8",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
